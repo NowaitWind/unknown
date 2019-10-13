@@ -26,13 +26,6 @@ jsproxy_config({
         'node-aliyun-sg.etherdream.com:8443': 1,
       },
     },
-    'mysite': {
-      label: 'localhost',
-      hidden: true,
-      lines: {
-        [location.host]: 1,
-      }
-    },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: 'cf',
